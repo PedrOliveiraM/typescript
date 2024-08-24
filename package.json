@@ -1,18 +1,6 @@
 {
-  "name": "typescript",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "npx ts-node index.ts",
-    "build": "rimraf dist && npx tsc",
-    "build-and-run": "npm run build && npm start"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
+  "dependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
 }
