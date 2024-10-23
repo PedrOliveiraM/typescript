@@ -2,7 +2,7 @@
 
 // TODO: SOMA DAS
 /*
-  a) Diag P ( i ==j )
+  a) Diag P ( i == j )
   b) Diag S ( n - 1 - i )
  */
 
@@ -29,8 +29,8 @@ let listDiagP: number[] = [];
 let listDiagS: number[] = [];
 let contPares: number = 0; // contador de números pares
 let contImpares: number = 0; // contador de números ímpares
-let maiorValor: number = -Infinity;
-let menorValor: number = Infinity;
+let maiorValor: number = 0;
+let menorValor: number = 999999;
 
 // Função para exibir a matriz
 function printMatrix(matrix: number[][]) {
@@ -99,7 +99,7 @@ function swapDiagonals(matrix: number[][]) {
 }
 
 swapRowWithColumn(matrix, 2, 4);
-console.log("Matriz após troca da Linha 2 com a Coluna 4:");
+console.log("Matriz apos troca da Linha 2 com a Coluna 4:");
 printMatrix(matrix);
 
 swapDiagonals(matrix);
