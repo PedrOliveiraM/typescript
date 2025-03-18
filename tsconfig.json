@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Configuração para ES6
+    "module": "ESNext", // Usar módulos ESNext
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Diretório de saída
+    "strict": true,
+    "noEmit": true // Não gerar arquivos de saída, apenas verificar os tipos
+  },
+  "include": [
+    "src/**/*", // Incluir os arquivos do diretório src
+    "tests/**/*" // Incluir os arquivos de teste
+  ]
+}
